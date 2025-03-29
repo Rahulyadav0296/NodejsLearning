@@ -4,8 +4,7 @@
   "description": "",
   "license": "ISC",
   "author": "Rahul",
-  "type": "module",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
