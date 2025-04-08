@@ -1,6 +1,6 @@
-require("dotenv").config();
-const connectDB = require("./db/index.js");
-const app = require("./app.js");
+require("dotenv").config(); // Loads environment variables from a .env file
+const connectDB = require("./db/index.js"); // MongoDB connection logic
+const { app } = require("./app.js"); // Express app setup
 
 connectDB()
   .then(() => {
